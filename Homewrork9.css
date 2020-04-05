@@ -1,0 +1,65 @@
+.container {
+  border: 2px solid gray;
+  width: 50%;
+  height: 800px;
+  margin: auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 80px);
+  grid-template-rows: repeat(2, 80px);
+  grid-gap: 5px;
+}
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #696969;
+  box-sizing: border-box;
+}
+
+#box1 {
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: -110px;
+  margin-left: -110px;
+}
+#box2 {
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: -110px;
+  margin-left: 10px;
+}
+#box3 {
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#box4 {
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: 10px;
+  margin-left: -110px;
+}
+
+div.box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+div.box p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
